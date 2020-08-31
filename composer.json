@@ -1,0 +1,26 @@
+{
+	"name": "ginvoicing/yii2-aws-sdk",
+	"description": "Yii2 AWS Sdk v3 wrapper.",
+	"type": "library",
+	"version": "1.0.3",
+	"minimum-stability": "stable",
+	"keywords": ["yii2", "aws", "sdk", "wrapper"],
+	"require": {
+		"php" : ">= 5.6",
+		"aws/aws-sdk-php": "~3.0",
+		"guzzlehttp/guzzle": "~6.0"
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tarun Jangra",
+			"email": "tarun.jangra@hotmail.com",
+			"role": "DevOps"
+		}
+	],
+	"autoload": {
+	    "psr-4": {
+			"ginvoicing\\aws\\": ""
+	    }
+	}	
+}
