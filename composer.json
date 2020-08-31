@@ -1,6 +1,6 @@
 {
 	"name": "ginvoicing/yii2-aws-sdk",
-	"description": "Yii2 AWS Sdk v3 wrapper.",
+	"description": "Yii2 component AWS Sdk v3 wrapper.",
 	"type": "library",
 	"version": "1.0.1",
 	"minimum-stability": "stable",
@@ -8,7 +8,8 @@
 	"require": {
 		"php" : ">= 5.6",
 		"aws/aws-sdk-php": "~3.0",
-		"guzzlehttp/guzzle": "~6.0"
+		"guzzlehttp/guzzle": "~6.0",
+		"paragonie/random_compat": "~2.0"
 	},
 	"license": "MIT",
 	"authors": [
